@@ -1,0 +1,63 @@
+graph TD
+  A[Thoracic Pathologies]
+
+  %% Pulmonary Parenchyma
+  A --> B[Pulmonary Parenchyma]
+  B --> B1[CPAM]
+  B --> B2[Pulmonary Sequestration]
+  B --> B3[Lung Abscess]
+  B --> B4[Hydatid Cysts]
+  B --> B5[Fungal Infection]
+  B --> B6[Pulmonary Malignancies]
+  B --> B7[Pulmonary Nodules]
+
+  %% Mediastinum
+  A --> C[Mediastinum]
+  C --> C1[Anterior Mediastinum]
+  C1 --> C1a[Thymoma]
+  C1 --> C1b[Thymic Hypertrophy]
+  C1 --> C1c[Thymolipoma]
+  C1 --> C1d[Thymic Cysts]
+  C1 --> C1e[Lymphatic Malformations]
+  C1 --> C1f[Teratomas]
+  C1 --> C1g[Thyroid Goitre]
+  C1 --> C1h[Pericardial Cysts]
+
+  C --> C2[Visceral Mediastinum]
+  C2 --> C2a[Vascular]
+  C2a --> C2a1[Double Aortic Arch]
+  C2a --> C2a2[Right Aortic Arch]
+  C2a --> C2a3[Pulmonary Artery Sling]
+  C2a --> C2a4[Duplicated SVC]
+  C2 --> C2b[Non-Vascular]
+  C2b --> C2b1[Foregut Duplication Cysts]
+  C2b --> C2b2[Lymphadenopathy]
+
+  C --> C3[Paraspinal Mediastinum]
+  C3 --> C3a[Malignant]
+  C3a --> C3a1[Neuroblastoma]
+  C3 --> C3b[Benign]
+  C3b --> C3b1[Neurogenic Cysts]
+  C3b --> C3b2[Anterior Meningoceles]
+
+  %% Pleura
+  A --> D[Pleura]
+  D --> D1[Malignant]
+  D1 --> D1a[Pleuropulmonary Blastoma]
+  D1 --> D1b[PNET]
+  D1 --> D1c[Sarcomas]
+  D1 --> D1d[Mesothelioma]
+  D1 --> D1e[Metastases]
+  D --> D2[Benign]
+  D2 --> D2a[Hemangiomas]
+  D2 --> D2b[Lymphangiomas]
+  D2 --> D2c[Neurofibromas]
+  D2 --> D2d[Lipomas]
+
+  %% Chest Wall
+  A --> E[Chest Wall]
+  E --> E1[Ewing's Sarcoma Family]
+  E --> E2[PNET]
+  E --> E3[Askin's Tumor]
+  E --> E4[Hemorrhage]
+  E --> E5[Abscess]
